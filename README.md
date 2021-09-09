@@ -2,7 +2,7 @@
 
 CredHub is a password manager Android app written in Java.
 
-** WARNING ** This is just a learning project that is NOT SECURE by any means. This app should NOT BE USED to store any real credentials
+**!!! WARNING !!!** This is just a learning project that is NOT SECURE by any means. This app should NOT BE USED to store any real credentials
 
 ## Structure
 
