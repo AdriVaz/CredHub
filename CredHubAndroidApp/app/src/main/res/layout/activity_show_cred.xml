@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowCred"
+    android:orientation="horizontal"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:paddingTop="20dp">
+
+    <TextView
+        android:id="@+id/appLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16pt"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/userLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_label"
+        android:layout_below="@id/appLabel"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/userValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/userLabel"
+        android:layout_alignTop="@id/userLabel"
+        android:layout_marginStart="5dp"
+    />
+
+    <TextView
+        android:id="@+id/passwordLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password_label"
+        android:layout_below="@id/userLabel"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/passwordValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/passwordLabel"
+        android:layout_alignTop="@id/passwordLabel"
+        android:layout_marginStart="5dp"
+        android:inputType="textPassword"
+        />
+
+    <ImageButton
+        android:id="@+id/togglePassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:src="@drawable/eye"
+        android:layout_toEndOf="@id/passwordValue"
+        android:layout_alignTop="@id/passwordValue"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-10dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/exportCred"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/export_label"
+        android:layout_below="@id/passwordValue"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:id="@+id/editCred"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_label"
+        android:layout_below="@id/exportCred"
+        android:background="#4dc2f0"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/removeCred"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_label"
+        android:layout_below="@id/editCred"
+        android:background="#f04d4d"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        />
+
+
+</RelativeLayout>

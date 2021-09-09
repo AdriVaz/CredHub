@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">CredHub</string>
+    <string name="server_ip_address">Server IP Address</string>
+    <string name="change_ip">Change IP</string>
+    <string name="user_label">User:</string>
+    <string name="password_label">Password:</string>
+    <string name="export_label">Export</string>
+    <string name="edit_label">Edit</string>
+    <string name="delete_label">Delete</string>
+    <string name="import_label">Import</string>
+    <string name="add_label">Add</string>
+    <string name="change_server_ip">Change Server IP</string>
+    <string name="label_label">Label</string>
+    <string name="randomize_label">Randomize</string>
+    <string name="save_label">Save</string>
+    <string name="editserverip_title">Change_server_IP></string>
+    <string name="showcred_title">Details</string>
+    <string name="addcred_title">Add new Credential</string>
+    <string name="addcred_edit_title">Edit Credential</string>
+    <string name="importcred_title">Import Credential</string>
+    <string name="login_title">Login</string>
+    <string name="invalid_ip_address">Invalid IP Address</string>
+    <string name="invalid_credentials">Invalid credentials</string>
+    <string name="lockscreen_removed_database_deleted">Lock screen mechanism removed. Database has been deleted</string>
+    <string name="unable_export">Unable to export credential to server</string>
+    <string name="unable_import">Unable to import credential from server</string>
+    <string name="unable_list">Unable to list credentials from server</string>
+    <string name="cred_exported">Cred exported successfully</string>
+    <string name="cred_imported">Cred imported successfully</string>
+    <string name="main_activity_device_unsecured">Device is not secured. Please configure a lockscreen method and come back</string>
+    <string name="not_secured_unable_import">Device is not secured. Unable to import credentials</string>
+
+    <string name="device_must_be_locked">Device must be locked to add a new register</string>
+    <string name="must_username">You must provide an username</string>
+    <string name="must_password">You must provide a password</string>
+    <string name="updated_successfully">Register updated successfully</string>
+    <string name="created_successfully">Register created successfully</string>
+    <string name="faied_write_register">Failed to write register</string>
+</resources>
